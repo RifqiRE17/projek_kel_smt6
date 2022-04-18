@@ -23,5 +23,8 @@ Route::prefix('admin')->group(function(){
     Route::get('/login',[Admin\Auth\LoginController::class,'loginform'])->name('admin.login');
     Route::post('/login',[Admin\Auth\LoginController::class,'login'])->name('admin.login');
     Route::get('/home',[Admin\HomeController::class, 'index'])->name('admin.home');
+    Route::get('/sliderimg',[Admin\SliderImgController::class, 'slider'])->name('admin.sliderimg');
+    Route::get('/sliderimg/create',[Admin\SliderImgController::class, 'create'])->name('admin.sliderimg.create');
+    Route::post('/sliderimg/store',[Admin\SliderImgController::class, 'store'])->name('admin.sliderimg.store');
     Route::get('/logout',[Admin\Auth\LoginController::class,'logout'])->name('admin.logout');
 });
