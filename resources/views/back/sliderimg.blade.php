@@ -15,7 +15,7 @@
             <td>{{$item['judul']}}</td>
             <td>{{$item['isi']}}</td>
             <td>
-                <a href="#">Edit</a> | <a href="#" style="color: red">Delete</a>
+                <a href="{{route('admin.sliderimg.edit',$item->id)}}">Edit</a> | <a href="{{route('admin.sliderimg.delete',$item->id)}}" style="color: red">Delete</a>
             </td> 
         </tr>
     </div>

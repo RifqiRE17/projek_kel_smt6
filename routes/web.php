@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin;
+use App\Http\Controllers\SliderImgController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -24,7 +26,13 @@ Route::prefix('admin')->group(function(){
     Route::post('/login',[Admin\Auth\LoginController::class,'login'])->name('admin.login');
     Route::get('/home',[Admin\HomeController::class, 'index'])->name('admin.home');
     Route::get('/sliderimg',[Admin\SliderImgController::class, 'slider'])->name('admin.sliderimg');
+    //Slider Image
     Route::get('/sliderimg/create',[Admin\SliderImgController::class, 'create'])->name('admin.sliderimg.create');
     Route::post('/sliderimg/store',[Admin\SliderImgController::class, 'store'])->name('admin.sliderimg.store');
+    Route::get('/sliderimg/edit/{id}',[Admin\SliderImgController::class, 'edit'])->name('admin.sliderimg.edit');
+    Route::post('/sliderimg/update/{id}',[Admin\SliderImgController::class, 'update'])->name('admin.sliderimg.update');
+    Route::get('/sliderimg/delete/{id}',[Admin\SliderImgController::class, 'destroy'])->name('admin.sliderimg.delete');
+    
+    //Keluar Admin
     Route::get('/logout',[Admin\Auth\LoginController::class,'logout'])->name('admin.logout');
 });

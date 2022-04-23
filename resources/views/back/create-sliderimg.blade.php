@@ -1,7 +1,7 @@
 @extends('layouts.frontend.back.inc.app')
 @section('content')
 </br>
-<form method="POST" action="{{route('admin.sliderimg.store')}}">
+<form method="POST" action="{{route('admin.sliderimg.store'.$model->id)}}">
 @csrf
 <div class="form-group">
     <label for="judul">Judul</label>

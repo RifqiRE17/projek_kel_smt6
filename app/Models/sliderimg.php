@@ -14,6 +14,7 @@ class sliderimg extends Model
     use Notifiable;
 
     protected $table='sliderimgs';
+    protected $primaryKey = 'id';
     protected $fillable=[
         'juduk','isi'
     ];

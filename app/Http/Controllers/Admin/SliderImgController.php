@@ -21,7 +21,7 @@ class SliderImgController extends Controller
     public function create()
     {
         $model = new sliderimg;
-        return view('back.create-sidebar', compact(
+        return view('back.create-sliderimg', compact(
             'model'
         ));
     }
@@ -61,7 +61,10 @@ class SliderImgController extends Controller
      */
     public function edit($id)
     {
-        //
+        $model = sliderimg::find($id);
+        return view('back.edit-sliderimg', compact(
+            'model'
+        ));
     }
 
     /**
@@ -73,7 +76,12 @@ class SliderImgController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $model = sliderimg::find($id);
+        $model->judul = $request->judul;
+        $model->isi = $request->isi;
+        $model->save();
+
+        return redirect('admin/sliderimg');
     }
 
     /**
@@ -84,6 +92,8 @@ class SliderImgController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $model = sliderimg::find($id);
+        $model->delete();
+        return redirect('admin/sliderimg');
     }
 }
