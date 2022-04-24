@@ -30,7 +30,7 @@ Route::prefix('admin')->group(function(){
     Route::get('/sliderimg/create',[Admin\SliderImgController::class, 'create'])->name('admin.sliderimg.create');
     Route::post('/sliderimg/store',[Admin\SliderImgController::class, 'store'])->name('admin.sliderimg.store');
     Route::get('/sliderimg/edit/{id}',[Admin\SliderImgController::class, 'edit'])->name('admin.sliderimg.edit');
-    Route::post('/sliderimg/update/{id}',[Admin\SliderImgController::class, 'update'])->name('admin.sliderimg.update');
+    Route::put('/sliderimg/update/{id}',[Admin\SliderImgController::class, 'update'])->name('admin.sliderimg.update');
     Route::get('/sliderimg/delete/{id}',[Admin\SliderImgController::class, 'destroy'])->name('admin.sliderimg.delete');
     
     //Keluar Admin

@@ -84,9 +84,17 @@ class SliderImgController extends Controller
      */
     public function update(Request $request, $id)
     {
+        //Gambar
+        $nm = $request->gambar;
+        $namaFile = time().rand(100,900).".".$nm->getClientOriginalName();
+
         $model = sliderimg::find($id);
         $model->judul = $request->judul;
         $model->isi = $request->isi;
+        $model->gambar = $namaFile;
+
+        //Gambar
+        $nm->move(public_path().'/img/slideimg', $namaFile);
         $model->save();
 
         return redirect('admin/sliderimg');
