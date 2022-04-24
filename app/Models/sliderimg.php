@@ -16,6 +16,6 @@ class sliderimg extends Model
     protected $table='sliderimgs';
     protected $primaryKey = 'id';
     protected $fillable=[
-        'juduk','isi'
+        'juduk','isi','gambar'
     ];
 }

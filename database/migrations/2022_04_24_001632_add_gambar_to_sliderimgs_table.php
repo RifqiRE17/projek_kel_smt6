@@ -13,12 +13,8 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('sliderimgs', function (Blueprint $table) {
-            $table->id();
-            $table->string('judul',100);
-            $table->string('isi',100);
-            $table->string('gambar',100);
-            $table->timestamps();
+        Schema::table('sliderimgs', function (Blueprint $table) {
+            $table->string('gambar', 100);
         });
     }
 
@@ -29,6 +25,8 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('sliderimgs');
+        Schema::table('sliderimgs', function (Blueprint $table) {
+            //
+        });
     }
 };
