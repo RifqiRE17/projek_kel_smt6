@@ -41,7 +41,7 @@ class SliderImgController extends Controller
         $model = new sliderimg;
         $model->judul = $request->judul;
         $model->isi = $request->isi;
-        $model->gambar1 = $namaFile;
+        $model->gambar = $namaFile;
         
         //Gambar
         $nm->move(public_path().'/img/slideimg', $namaFile);
@@ -110,6 +110,6 @@ class SliderImgController extends Controller
     {
         $model = sliderimg::find($id);
         $model->delete();
-        return redirect('admin/aboutstart');
+        return redirect('admin/sliderimg');
     }
 }
