@@ -8,14 +8,14 @@ use Illuminate\Notifications\Notifiable;
 
 use Illuminate\Foundation\Auth\User as Authenticatable;
 
-class sliderimg extends Model
+class aboutstart extends Model
 {
     use HasFactory;
     use Notifiable;
 
-    protected $table='sliderimgs';
+    protected $table='aboutstarts';
     protected $primaryKey = 'id';
     protected $fillable=[
-        'judul','isi','gambar'
+        'judul','isi','gambar1','gambar2','gambar3','gambar4'
     ];
 }

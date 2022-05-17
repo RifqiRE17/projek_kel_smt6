@@ -1,7 +1,7 @@
 @extends('layouts.frontend.back.inc.app')
 @section('content')
     </br>
-    <a class="btn btn-info" href="{{route('admin.sliderimg.create')}}">Tambah</a>
+    <!-- <a class="btn btn-info" href="{{route('admin.sliderimg.create')}}">Tambah</a> -->
     </br>
     <div class="card-body">
         <table class="table table-bordered"
