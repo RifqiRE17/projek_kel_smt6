@@ -6,5 +6,5 @@
         </div>
     @endif
     <h1>Halaman Adminstrator</h1>
-    <p>Ini adalah halaman Adminstrator!</p>
+    <p>Ini adalah Halaman Adminstrator SDN Kotakulon 1 !</p>
 @endsection
