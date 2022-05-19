@@ -382,7 +382,7 @@
     <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
     <p>Sekolah yang memberikan kesan belajar itu asyik, terimakasih Bapak/Ibu guru SDN Kotakulon 1!!</p>
     <div class="d-flex align-items-center">
-        <img class="img-fluid flex-shrink-0 rounded" src="assets/img/tim-rosyed.jpg" style="width: 50px; height: 50px;">
+        <img class="img-fluid flex-shrink-0 rounded" src="assets/img/tim-rosyed.jpeg" style="width: 50px; height: 50px;">
         <div class="ps-3">
             <h5 class="mb-1">Rosyedd</h5>
             <small>Freelancer</small>
@@ -393,7 +393,7 @@
     <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
     <p>Di SDN Kotakulon 1 saya menemukan teman-teman terbaik saya</p>
     <div class="d-flex align-items-center">
-        <img class="img-fluid flex-shrink-0 rounded" src="assets/img/tim-arif.jpg" style="width: 50px; height: 50px;">
+        <img class="img-fluid flex-shrink-0 rounded" src="assets/img/tim-arif.jpeg" style="width: 50px; height: 50px;">
         <div class="ps-3">
             <h5 class="mb-1">Arif Ajahh</h5>
             <small>Astronot</small>
@@ -404,7 +404,7 @@
     <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
     <p>Tidak ada kata menyerah untuk maju, sukses tidak perlu beban keluarga nomer satu</p>
     <div class="d-flex align-items-center">
-        <img class="img-fluid flex-shrink-0 rounded" src="assets/img/testimonial-3.jpg" style="width: 50px; height: 50px;">
+        <img class="img-fluid flex-shrink-0 rounded" src="assets/img/tim-devan.jpeg" style="width: 50px; height: 50px;">
         <div class="ps-3">
             <h5 class="mb-1">Devan Bucin</h5>
             <small>Entrepreneur</small>
@@ -415,7 +415,7 @@
     <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
     <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
     <div class="d-flex align-items-center">
-        <img class="img-fluid flex-shrink-0 rounded" src="assets/img/testimonial-4.jpg" style="width: 50px; height: 50px;">
+        <img class="img-fluid flex-shrink-0 rounded" src="assets/img/tim-ryan.jpeg" style="width: 50px; height: 50px;">
         <div class="ps-3">
             <h5 class="mb-1">Ryan Calm</h5>
             <small>Mahasiswa</small>
