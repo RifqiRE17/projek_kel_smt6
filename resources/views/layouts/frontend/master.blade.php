@@ -65,6 +65,7 @@
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Informasi</a>
                         <div class="dropdown-menu rounded-0 m-0">
                             <a href="job-list.html" class="dropdown-item">Pengumuman</a>
+                            <a href="job-list.html" class="dropdown-item">Prestasi</a>
                             <a href="job-list.html" class="dropdown-item">Fasilitas</a>
                             <!-- <a href="job-detail.html" class="dropdown-item">PPDB</a> -->
                         </div>
