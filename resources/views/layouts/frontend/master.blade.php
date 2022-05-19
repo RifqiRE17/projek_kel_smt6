@@ -88,8 +88,8 @@
                                     <h1 class="display-3 text-white animated slideInDown mb-4">{{$item->judul}}</h1>
                                     <p class="fs-5 fw-medium text-white mb-4 pb-2">{{$item->isi}}</p>
                     @endforeach
-                                    <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Search A Job</a>
-                                    <a href="" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Find A Talent</a>
+                                    <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Daftar PPDB</a>
+                                    <a href="" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Direktori</a>
                                 </div>
                             </div>
                         </div>
