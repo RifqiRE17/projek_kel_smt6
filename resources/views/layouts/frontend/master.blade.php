@@ -75,6 +75,7 @@
                             <a href="job-list.html" class="dropdown-item">Kepala Sekolah</a>
                             <a href="job-list.html" class="dropdown-item">Guru</a>
                             <a href="job-list.html" class="dropdown-item">Pegawai</a>
+                            <a href="job-list.html" class="dropdown-item">Siswa</a>
                             <!-- <a href="job-detail.html" class="dropdown-item">PPDB</a> -->
                         </div>
                     </div>
@@ -122,20 +123,17 @@
             <div class="container py-5">
                 <div class="row g-5">
                     <div class="col-lg-3 col-md-6">
-                        <h5 class="text-white mb-4">Company</h5>
-                        <a class="btn btn-link text-white-50" href="">About Us</a>
-                        <a class="btn btn-link text-white-50" href="">Contact Us</a>
-                        <a class="btn btn-link text-white-50" href="">Our Services</a>
-                        <a class="btn btn-link text-white-50" href="">Privacy Policy</a>
-                        <a class="btn btn-link text-white-50" href="">Terms & Condition</a>
+                        <h5 class="text-white mb-4">Direktori</h5>
+                        <a class="btn btn-link text-white-50" href="">Kepala Sekolah</a>
+                        <a class="btn btn-link text-white-50" href="">Guru</a>
+                        <a class="btn btn-link text-white-50" href="">Pegawai</a>
+                        <a class="btn btn-link text-white-50" href="">Siswa</a>
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <h5 class="text-white mb-4">Quick Links</h5>
-                        <a class="btn btn-link text-white-50" href="">About Us</a>
-                        <a class="btn btn-link text-white-50" href="">Contact Us</a>
-                        <a class="btn btn-link text-white-50" href="">Our Services</a>
-                        <a class="btn btn-link text-white-50" href="">Privacy Policy</a>
-                        <a class="btn btn-link text-white-50" href="">Terms & Condition</a>
+                        <h5 class="text-white mb-4">Profil</h5>
+                        <a class="btn btn-link text-white-50" href="">Sejarah</a>
+                        <a class="btn btn-link text-white-50" href="">Visi - Misi</a>
+                        <a class="btn btn-link text-white-50" href="">Struktur Organisasi</a>
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <h5 class="text-white mb-4">Contact Person</h5>
@@ -150,8 +148,8 @@
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <h5 class="text-white mb-4">Newsletter</h5>
-                        <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                        <h5 class="text-white mb-4">Sign Up</h5>
+                        <p>Mendaftar untuk memiliki akses PPDB (Penerimaan Peserta Didik Baru) di SDN Kotakulon 1</p>
                         <div class="position-relative mx-auto" style="max-width: 400px;">
                             <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
                             <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>

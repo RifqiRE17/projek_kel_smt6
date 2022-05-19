@@ -23,7 +23,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                        <h1 class="mb-4">We Help To Get The Best Job And Find A Talent</h1>
+                        <h1 class="mb-4">Sambutan Kepala Sekolah</h1>
                         <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
                         <p><i class="fa fa-check text-primary me-3"></i>Tempor erat elitr rebum at clita</p>
                         <p><i class="fa fa-check text-primary me-3"></i>Aliqu diam amet diam et eos</p>
@@ -376,38 +376,38 @@
 <!-- Testimonial Start -->
 <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
 <div class="container">
-<h1 class="text-center mb-5">Our Clients Say!!!</h1>
+<h1 class="text-center mb-5">Alumni SDN Kotakulon 1 !!!</h1>
 <div class="owl-carousel testimonial-carousel">
 <div class="testimonial-item bg-light rounded p-4">
     <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-    <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+    <p>Sekolah yang memberikan kesan belajar itu asyik, terimakasih Bapak/Ibu guru SDN Kotakulon 1!!</p>
     <div class="d-flex align-items-center">
-        <img class="img-fluid flex-shrink-0 rounded" src="assets/img/testimonial-1.jpg" style="width: 50px; height: 50px;">
+        <img class="img-fluid flex-shrink-0 rounded" src="assets/img/tim-rosyed.jpg" style="width: 50px; height: 50px;">
         <div class="ps-3">
-            <h5 class="mb-1">Client Name</h5>
-            <small>Profession</small>
+            <h5 class="mb-1">Rosyedd</h5>
+            <small>Freelancer</small>
         </div>
     </div>
 </div>
 <div class="testimonial-item bg-light rounded p-4">
     <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-    <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+    <p>Di SDN Kotakulon 1 saya menemukan teman-teman terbaik saya</p>
     <div class="d-flex align-items-center">
-        <img class="img-fluid flex-shrink-0 rounded" src="assets/img/testimonial-2.jpg" style="width: 50px; height: 50px;">
+        <img class="img-fluid flex-shrink-0 rounded" src="assets/img/tim-arif.jpg" style="width: 50px; height: 50px;">
         <div class="ps-3">
-            <h5 class="mb-1">Client Name</h5>
-            <small>Profession</small>
+            <h5 class="mb-1">Arif Ajahh</h5>
+            <small>Astronot</small>
         </div>
     </div>
 </div>
 <div class="testimonial-item bg-light rounded p-4">
     <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-    <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+    <p>Tidak ada kata menyerah untuk maju, sukses tidak perlu beban keluarga nomer satu</p>
     <div class="d-flex align-items-center">
         <img class="img-fluid flex-shrink-0 rounded" src="assets/img/testimonial-3.jpg" style="width: 50px; height: 50px;">
         <div class="ps-3">
-            <h5 class="mb-1">Client Name</h5>
-            <small>Profession</small>
+            <h5 class="mb-1">Devan Bucin</h5>
+            <small>Entrepreneur</small>
         </div>
     </div>
 </div>
@@ -417,8 +417,8 @@
     <div class="d-flex align-items-center">
         <img class="img-fluid flex-shrink-0 rounded" src="assets/img/testimonial-4.jpg" style="width: 50px; height: 50px;">
         <div class="ps-3">
-            <h5 class="mb-1">Client Name</h5>
-            <small>Profession</small>
+            <h5 class="mb-1">Ryan Calm</h5>
+            <small>Mahasiswa</small>
         </div>
     </div>
 </div>
