@@ -8,16 +8,16 @@
                         <div class="row g-0 about-bg rounded overflow-hidden">
                             <div class="col-6 text-start">
                             @foreach ($data as $item)
-                                <img class="img-fluid w-100" src="assets/img/about-1.jpg">
+                                <img class="img-fluid w-100" src="assets/img/tim/tim-ryan400x400px.jpg">
                             </div>
                             <div class="col-6 text-start">
-                                <img class="img-fluid" src="assets/img/about-2.jpg" style="width: 85%; margin-top: 15%;">
+                                <img class="img-fluid" src="assets/img/tim/tim-rosyed400x400px.jpg" style="width: 85%; margin-top: 15%;">
                             </div>
                             <div class="col-6 text-end">
-                                <img class="img-fluid" src="assets/img/about-3.jpg" style="width: 85%;">
+                                <img class="img-fluid" src="assets/img/tim/tim-devan400x400px.jpg" style="width: 85%;">
                             </div>
                             <div class="col-6 text-end">
-                                <img class="img-fluid w-100" src="assets/img/about-4.jpg">
+                                <img class="img-fluid w-100" src="assets/img/tim/tim-arif400x400px.jpg">
                             </div>
                             @endforeach
                         </div>
