@@ -43,7 +43,7 @@
 
         <!-- Navbar Start -->
         <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
-            <a href="index.html" class="navbar-brand d-flex align-items-center text-center py-0 px-4 px-lg-5">
+            <a href="/" class="navbar-brand d-flex align-items-center text-center py-0 px-4 px-lg-5">
                 <h1 class="m-0 text-primary">SDN Kotakulon 1</h1>
             </a>
             <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -51,7 +51,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto p-4 p-lg-0">
-                    <a href="index.html" class="nav-item nav-link active">Beranda</a>
+                    <a href="/" class="nav-item nav-link active">Beranda</a>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Profil</a>
                         <div class="dropdown-menu rounded-0 m-0">
@@ -90,7 +90,7 @@
                     </div>
                     <a href="contact.html" class="nav-item nav-link">Contact</a>
                 </div> -->
-                <a href="" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">PPDB<i class="fa fa-arrow-right ms-3"></i></a>
+                <a href="ppdb" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">PPDB<i class="fa fa-arrow-right ms-3"></i></a>
             </div>
         </nav>
         <!-- Navbar End -->
@@ -150,7 +150,7 @@
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <h5 class="text-white mb-4">Sign Up</h5>
-                        <p>Daftar untuk memiliki akun untuk mengakses PPDB (Penerimaan Peserta Didik Baru) di SDN Kotakulon 1</p>
+                        <p>Daftar akun untuk memiliki akses PPDB (Penerimaan Peserta Didik Baru) di SDN Kotakulon 1</p>
                         <div class="position-relative mx-auto" style="max-width: 400px;">
                             <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
                             <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
