@@ -55,29 +55,29 @@
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Profil</a>
                         <div class="dropdown-menu rounded-0 m-0">
-                            <a href="job-list.html" class="dropdown-item">Sejarah</a>
-                            <a href="job-list.html" class="dropdown-item">Visi - Misi</a>
-                            <a href="job-list.html" class="dropdown-item">Struktur Organisasi</a>   
-                            <!-- <a href="job-detail.html" class="dropdown-item">PPDB</a> -->
+                            <a href="profil" class="dropdown-item">Sejarah</a>
+                            <a href="profil" class="dropdown-item">Visi - Misi</a>
+                            <a href="profil" class="dropdown-item">Struktur Organisasi</a>   
+                            <!-- <a href="profil" class="dropdown-item">PPDB</a> -->
                         </div>
                     </div>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Informasi</a>
                         <div class="dropdown-menu rounded-0 m-0">
-                            <a href="job-list.html" class="dropdown-item">Pengumuman</a>
+                            <a href="prestasi" class="dropdown-item">Pengumuman</a>
                             <a href="prestasi" class="dropdown-item">Prestasi</a>
-                            <a href="job-list.html" class="dropdown-item">Fasilitas</a>
-                            <!-- <a href="job-detail.html" class="dropdown-item">PPDB</a> -->
+                            <a href="prestasi" class="dropdown-item">Fasilitas</a>
+                            <!-- <a href="prestasi" class="dropdown-item">PPDB</a> -->
                         </div>
                     </div>
                     <div class="nav-item dropdown">
                         <a href="direktori" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Direktori</a>
                         <div class="dropdown-menu rounded-0 m-0">
-                            <a href="job-list.html" class="dropdown-item">Kepala Sekolah</a>
-                            <a href="job-list.html" class="dropdown-item">Guru</a>
-                            <a href="job-list.html" class="dropdown-item">Pegawai</a>
-                            <a href="job-list.html" class="dropdown-item">Siswa</a>
-                            <!-- <a href="job-detail.html" class="dropdown-item">PPDB</a> -->
+                            <a href="direktori" class="dropdown-item">Kepala Sekolah</a>
+                            <a href="direktori" class="dropdown-item">Guru</a>
+                            <a href="direktori" class="dropdown-item">Pegawai</a>
+                            <a href="direktori" class="dropdown-item">Siswa</a>
+                            <!-- <a href="direktori" class="dropdown-item">PPDB</a> -->
                         </div>
                     </div>
                     <!-- <div class="nav-item dropdown">
@@ -108,8 +108,8 @@
                                     <h1 class="display-3 text-white animated slideInDown mb-4">{{$item->judul}}</h1>
                                     <p class="fs-5 fw-medium text-white mb-4 pb-2">{{$item->isi}}</p>
                     @endforeach
-                                    <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Daftar PPDB</a>
-                                    <a href="" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Direktori</a>
+                                    <a href="ppdb" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Daftar PPDB</a>
+                                    <a href="direktori" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Direktori</a>
                                 </div>
                             </div>
                         </div>
@@ -125,16 +125,16 @@
                 <div class="row g-5">
                     <div class="col-lg-3 col-md-6">
                         <h5 class="text-white mb-4">Direktori</h5>
-                        <a class="btn btn-link text-white-50" href="">Kepala Sekolah</a>
-                        <a class="btn btn-link text-white-50" href="">Guru</a>
-                        <a class="btn btn-link text-white-50" href="">Pegawai</a>
-                        <a class="btn btn-link text-white-50" href="">Siswa</a>
+                        <a class="btn btn-link text-white-50" href="direktori">Kepala Sekolah</a>
+                        <a class="btn btn-link text-white-50" href="direktori">Guru</a>
+                        <a class="btn btn-link text-white-50" href="direktori">Pegawai</a>
+                        <a class="btn btn-link text-white-50" href="direktori">Siswa</a>
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <h5 class="text-white mb-4">Profil</h5>
-                        <a class="btn btn-link text-white-50" href="">Sejarah</a>
-                        <a class="btn btn-link text-white-50" href="">Visi - Misi</a>
-                        <a class="btn btn-link text-white-50" href="">Struktur Organisasi</a>
+                        <a class="btn btn-link text-white-50" href="profil">Sejarah</a>
+                        <a class="btn btn-link text-white-50" href="profil">Visi - Misi</a>
+                        <a class="btn btn-link text-white-50" href="profil">Struktur Organisasi</a>
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <h5 class="text-white mb-4">Contact Person</h5>
@@ -150,7 +150,7 @@
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <h5 class="text-white mb-4">Sign Up</h5>
-                        <p>Mendaftar untuk memiliki akses PPDB (Penerimaan Peserta Didik Baru) di SDN Kotakulon 1</p>
+                        <p>Daftar untuk memiliki akun untuk mengakses PPDB (Penerimaan Peserta Didik Baru) di SDN Kotakulon 1</p>
                         <div class="position-relative mx-auto" style="max-width: 400px;">
                             <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
                             <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
