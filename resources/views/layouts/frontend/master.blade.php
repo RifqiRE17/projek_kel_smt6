@@ -51,7 +51,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto p-4 p-lg-0">
-                    <a href="/" class="nav-item nav-link active">Beranda</a>
+                    <a href="/" class="nav-item nav-link">Beranda</a>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Profil</a>
                         <div class="dropdown-menu rounded-0 m-0">
@@ -80,6 +80,7 @@
                             <!-- <a href="direktori" class="dropdown-item">PPDB</a> -->
                         </div>
                     </div>
+                    <a href="contact" class="nav-item nav-link">Contact</a>
                     <!-- <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                         <div class="dropdown-menu rounded-0 m-0">

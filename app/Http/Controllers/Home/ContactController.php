@@ -6,7 +6,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Master;
 
-class PPDBController extends Controller
+class ContactController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -16,7 +16,7 @@ class PPDBController extends Controller
     public function index()
     {
         $data = Master::all();
-        return view('pages.ppdb',['data'=>$data]);
+        return view('pages.contact',['data'=>$data]);
     }
 
     /**
