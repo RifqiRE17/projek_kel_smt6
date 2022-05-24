@@ -1,10 +1,27 @@
 @extends('layouts.frontend.master')
 
 @section('content')
-        <!-- Category Start -->
+        <!-- Direktori Kepala Sekolah -->
         <div class="container-xxl py-5">
             <div class="container">
-                <h1 class="text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">Explore By Category</h1>
+            <h1 class="text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">DIREKTORI</h1>
+                <h2 class="text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">Kepala Sekolah</h2>
+                <div class="row g-4">
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <a class="cat-item rounded p-4" href="">
+                            <i class="fa fa-3x fa-mail-bulk text-primary mb-4"></i>
+                            <h6 class="mb-3">Marketing</h6>
+                            <p class="mb-0">123 Vacancy</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Direktori Guru -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <h2 class="text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">Guru</h2>
                 <div class="row g-4">
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                         <a class="cat-item rounded p-4" href="">
@@ -65,6 +82,7 @@
                 </div>
             </div>
         </div>
+        
         <!-- Category End -->
 
 @stop

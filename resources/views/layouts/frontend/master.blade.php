@@ -71,7 +71,7 @@
                         </div>
                     </div>
                     <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Direktori</a>
+                        <a href="direktori" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Direktori</a>
                         <div class="dropdown-menu rounded-0 m-0">
                             <a href="job-list.html" class="dropdown-item">Kepala Sekolah</a>
                             <a href="job-list.html" class="dropdown-item">Guru</a>
