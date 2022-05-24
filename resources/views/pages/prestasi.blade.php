@@ -1,7 +1,5 @@
 @extends('layouts.frontend.master')
 
-@section('judul', 'Prestasi - SDN Kotakulon 1')
-
 @section('content')
         <!-- Jobs Start -->
         <div class="container-xxl py-5">

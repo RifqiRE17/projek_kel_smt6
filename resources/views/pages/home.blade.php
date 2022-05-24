@@ -7,7 +7,6 @@
                     <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                         <div class="row g-0 about-bg rounded overflow-hidden">
                             <div class="col-6 text-start">
-                            @foreach ($data as $item)
                                 <img class="img-fluid w-100" src="assets/img/tim/tim-ryan400x400px.jpg">
                             </div>
                             <div class="col-6 text-start">
@@ -19,7 +18,6 @@
                             <div class="col-6 text-end">
                                 <img class="img-fluid w-100" src="assets/img/tim/tim-arif400x400px.jpg">
                             </div>
-                            @endforeach
                         </div>
                     </div>
                     <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">

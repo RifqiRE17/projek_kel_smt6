@@ -17,7 +17,8 @@ use App\Http\Controllers\MasterController;
 |
 */
 
-Route::get('/',[MasterController::class,'index']);
+Route::get('/', 'App\Http\Controllers\Home\MasterController@index');
+Route::get('/prestasi', 'App\Http\Controllers\Home\PrestasiController@index');
 
 Route::prefix('admin')->group(function(){
     Route::get('/',[Admin\Auth\LoginController::class,'loginform']);
