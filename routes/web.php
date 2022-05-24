@@ -21,6 +21,7 @@ Route::get('/', 'App\Http\Controllers\Home\MasterController@index');
 Route::get('/prestasi', 'App\Http\Controllers\Home\PrestasiController@index');
 Route::get('/direktori', 'App\Http\Controllers\Home\DirektoriController@index');
 Route::get('/ppdb', 'App\Http\Controllers\Home\PPDBController@index');
+Route::get('/profil', 'App\Http\Controllers\Home\ProfilController@index');
 
 Route::prefix('admin')->group(function(){
     Route::get('/',[Admin\Auth\LoginController::class,'loginform']);
