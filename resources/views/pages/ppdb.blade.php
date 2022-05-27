@@ -34,18 +34,33 @@
                                     </div>
                                     <div class="col-12">
                                         <div class="form-floating">
-                                            <input type="text" class="form-control" id="subject" placeholder="Subject">
-                                            <label for="subject">Alamat</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <div class="form-floating">
                                             <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 150px"></textarea>
                                             <label for="message">Pesan</label>
                                         </div>
                                     </div>
+                                    <div class="form-group">
+                                        <label for="ijazah">Ijazah TK</label>
+                                        <input type="file" class="form-control" name="ijazah" aria-describedby="ijazahHelp">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="akta">Akta Kelahiran</label>
+                                        <input type="file" class="form-control" name="akta" aria-describedby="aktaHelp">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="ktp">KTP Orang Tua</label>
+                                        <input type="file" class="form-control" name="ktp" aria-describedby="ktpHelp">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="kk">Kartu Keluarga</label>
+                                        <input type="file" class="form-control" name="kk" aria-describedby="kkHelp">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="sertifikat">Sertifikat Penghargaan (jika ada)</label>
+                                        <input type="file" class="form-control" name="sertifikat" aria-describedby="sertifikatHelp">
+                                    </div>
+
                                     <div class="col-12">
-                                        <button class="btn btn-primary w-100 py-3" type="submit">Kirim Pesan</button>
+                                        <button class="btn btn-primary w-100 py-3" type="submit">Kirim</button>
                                     </div>
                                 </div>
                  </form>

@@ -175,6 +175,7 @@
                                 <a href="profil">Profil</a>
                                 <a href="prestasi">Informasi</a>
                                 <a href="direktori">Direktori</a>
+                                <a href="contact">Contact</a>
                                 <a href="ppdb">PPDB</a>
                             </div>
                         </div>
