@@ -171,10 +171,11 @@
                         </div>
                         <div class="col-md-6 text-center text-md-end">
                             <div class="footer-menu">
-                                <a href="">Home</a>
-                                <a href="">Cookies</a>
-                                <a href="">Help</a>
-                                <a href="">FQAs</a>
+                                <a href="/">Home</a>
+                                <a href="profil">Profil</a>
+                                <a href="prestasi">Informasi</a>
+                                <a href="direktori">Direktori</a>
+                                <a href="ppdb">PPDB</a>
                             </div>
                         </div>
                     </div>
