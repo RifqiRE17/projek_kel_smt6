@@ -1,12 +1,13 @@
 <div class="border-end bg-white" id="sidebar-wrapper">
                 <div class="sidebar-heading border-bottom bg-light">SDN Kotakulon 1</div>
                 <div class="list-group list-group-flush">
-                <div class="list-group-item list-group-item-light p-3"><strong>Landing Page</strong></div>
+                <div class="list-group-item list-group-item-light p-3"><strong>Beranda</strong></div>
                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="{{route('admin.sliderimg')}}">Foto Landing Page</a>
                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="{{route('admin.aboutstart')}}">About Start</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="{{route('admin.direktori')}}">Direktori</a>
                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Sambutan kepala Sekolah</a>
                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Prestasi</a>
-                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Komoentar</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Komentar</a>
                 <div class="list-group-item list-group-item-light p-3"><strong>Profil</strong></div>
                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Sejarah</a>
                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Visi - Misi</a>
