@@ -15,6 +15,12 @@ return new class extends Migration
     {
         Schema::create('direktoris', function (Blueprint $table) {
             $table->id();
+            $table->string('nama_kepala_sekolah',100);
+            $table->string('foto_kepala_sekloah',100);
+            $table->string('nama_guru',100);
+            $table->string('foto_guru',100);
+            $table->string('nama_pegawai',100);
+            $table->string('foto_pegawai',100);
             $table->timestamps();
         });
     }

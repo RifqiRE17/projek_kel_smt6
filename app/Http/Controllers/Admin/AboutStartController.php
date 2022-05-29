@@ -52,6 +52,7 @@ class AboutStartController extends Controller
         $model = new aboutstart;
         $model->judul = $request->judul;
         $model->isi = $request->isi;
+        //Gambar
         $model->gambar1 = $namaFile1;
         $model->gambar2 = $namaFile2;
         $model->gambar3 = $namaFile3;

@@ -32,6 +32,7 @@ Route::prefix('admin')->group(function(){
     Route::get('/home',[Admin\HomeController::class, 'index'])->name('admin.home');
     Route::get('/sliderimg',[Admin\SliderImgController::class, 'slider'])->name('admin.sliderimg');
     Route::get('/aboutstart',[Admin\AboutStartController::class, 'index'])->name('admin.aboutstart');
+    Route::get('/direktori',[Admin\DirektoriAdminController::class, 'index'])->name('admin.direktori');
     //Slider Image
     Route::get('/sliderimg/create',[Admin\SliderImgController::class, 'create'])->name('admin.sliderimg.create');
     Route::post('/sliderimg/store',[Admin\SliderImgController::class, 'store'])->name('admin.sliderimg.store');
@@ -45,6 +46,10 @@ Route::prefix('admin')->group(function(){
     Route::get('/aboutstart/edit/{id}',[Admin\AboutStartController::class, 'edit'])->name('admin.aboutstart.edit');
     Route::put('/aboutstart/update/{id}',[Admin\AboutStartController::class, 'update'])->name('admin.aboutstart.update');
     Route::get('/aboutstart/delete/{id}',[Admin\AboutStartController::class, 'destroy'])->name('admin.aboutstart.delete');
+
+    //Direktori
+    Route::get('/direktori/create',[Admin\DirektoriAdminController::class, 'create'])->name('admin.direktori.create');
+    Route::post('/direktori/store',[Admin\DirektoriAdminController::class, 'store'])->name('admin.direktori.store');
     
     //Keluar Admin
     Route::get('/logout',[Admin\Auth\LoginController::class,'logout'])->name('admin.logout');
