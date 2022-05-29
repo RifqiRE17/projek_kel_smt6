@@ -39,6 +39,10 @@ class PPDBController extends Controller
     public function store(Request $request)
     {
         $validatedData = $request->validate([
+            'namalengkap' => 'required',
+            'namapanggilan' => 'required',
+            'alamat' => 'required',
+            'ttl' => 'required',
             'ijazah' => 'required',
             'akta' => 'required',
             'ktp' => 'required',

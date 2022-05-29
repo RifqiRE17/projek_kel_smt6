@@ -14,6 +14,7 @@
         <link href="{{asset('back/css/styles.css')}}" rel="stylesheet" />
     </head>
     <body>
+
         <div class="d-flex" id="wrapper">
             <!-- Sidebar-->
             @section('sidebar')

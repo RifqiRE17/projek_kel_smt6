@@ -1,5 +1,8 @@
 @extends('layouts.frontend.back.inc.app')
 @section('content')
+    
+    <h2 class="text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">Halaman Administrator</h2>
+    <h3 class="text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">Landing Page</h3>
     </br>
     <a class="btn btn-info" href="{{route('admin.sliderimg.create')}}">Tambah</a>
     </br>
@@ -23,5 +26,6 @@
             </td> 
         </tr>
     </div>
+
     @endforeach
 @endsection

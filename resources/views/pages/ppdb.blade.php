@@ -10,32 +10,32 @@
                                 <div class="row g-3">
                                     <div class="col-md-6">
                                         <div class="form-floating">
-                                            <input type="email" class="form-control" id="email" placeholder="Your Email">
-                                            <label for="email">Nama Lengkap</label>
+                                            <input type="text" class="form-control" id="email" placeholder="Your Email">
+                                            <label for="namalengkap">Nama Lengkap</label>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-floating">
-                                            <input type="email" class="form-control" id="email" placeholder="Your Email">
-                                            <label for="email">Nama Panggilan</label>
+                                            <input type="text" class="form-control" id="email" placeholder="Your Email">
+                                            <label for="namapanggilan">Nama Panggilan</label>
                                         </div>
                                     </div>
                                     <div class="col-6">
                                         <div class="form-floating">
                                             <input type="text" class="form-control" id="alamat" placeholder="Alamat">
-                                            <label for="subject">Alamat</label>
+                                            <label for="alamat">Alamat</label>
                                         </div>
                                     </div>
                                     <div class="col-6">
                                         <div class="form-floating">
                                             <input type="text" class="form-control" id="ttl" placeholder="TTL">
-                                            <label for="subject">Tempat, Tanggal Lahir</label>
+                                            <label for="ttl">Tempat, Tanggal Lahir</label>
                                         </div>
                                     </div>
                                     <div class="col-12">
                                         <div class="form-floating">
                                             <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 150px"></textarea>
-                                            <label for="message">Pesan</label>
+                                            <label for="pesan">Pesan</label>
                                         </div>
                                     </div>
                                     <div class="form-group">
