@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Home;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Master;
+use App\Models\ppdb;
 
 class PPDBController extends Controller
 {
@@ -37,7 +38,12 @@ class PPDBController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $validatedData = $request->validate([
+            'ijazah' => 'required',
+            'akta' => 'required',
+            'ktp' => 'required',
+            'kk' => 'required'
+        ]);
     }
 
     /**

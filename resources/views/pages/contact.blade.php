@@ -42,7 +42,7 @@
                     </div>
                     <div class="col-md-6">
                         <div class="wow fadeInUp" data-wow-delay="0.5s">
-                            <p class="mb-4">Halaman ini disediakan untuk pengguna yang mengalami masalah dalam mengakses website</a>.</p>
+                            <p class="mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore voluptate maiores delectus mollitia odit doloremque nam deserunt expedita voluptatum a ex esse quasi, laudantium ab libero dolore vitae odio autem omnis. Placeat voluptatum tempore facilis laboriosam, molestias magnam sit perferendis natus nisi ab eveniet reprehenderit et molestiae eligendi cum aliquam?</a>.</p>
                             <form>
                                 <div class="row g-3">
                                     <div class="col-md-6">
