@@ -16,6 +16,6 @@ class direktori extends Model
     protected $table='direktoris';
     protected $primaryKey = 'id';
     protected $fillable=[
-        'nama_kepala_sekolah','foto_kepala_sekloah','nama_guru','foto_guru','nama_pegawai','foto_pegawai'
+        'nama_kepala_sekolah','foto_kepala_sekolah','nama_guru','foto_guru','nama_pegawai','foto_pegawai'
     ];
 }

@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Home;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Master;
+use App\Models\aboutstart;
 
 class MasterController extends Controller
 {
@@ -15,8 +16,9 @@ class MasterController extends Controller
      */
     public function index()
     {
-        $data = Master::all();
-        return view('pages.home',['data'=>$data]);
+        return View('pages.home')
+        ->with('data', Master::all())
+        ->with('data2', aboutstart::all());
     }
 
     /**

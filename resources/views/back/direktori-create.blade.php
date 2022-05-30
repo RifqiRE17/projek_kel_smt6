@@ -8,7 +8,7 @@
 </div>
 <div class="form-group">
     <label for="foto_kepala_sekolah">Foto Kepala Sekolah</label>
-    <input type="file" class="form-control" name="foto_kepala_sekolah" aria-describedby="gambar1Help">
+    <input type="file" class="form-control" name="foto_kepala_sekolah" aria-describedby="foto_kepala_sekolahHelp">
 </div>
 <div class="form-group">
     <label for="nama_guru">Nama Guru</label>
