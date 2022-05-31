@@ -16,7 +16,7 @@ return new class extends Migration
         Schema::create('sliderimgs', function (Blueprint $table) {
             $table->id();
             $table->string('judul',100);
-            $table->string('isi',100);
+            $table->longText('isi',100);
             $table->string('gambar',100);
             $table->timestamps();
         });
