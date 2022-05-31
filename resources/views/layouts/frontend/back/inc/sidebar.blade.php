@@ -22,6 +22,6 @@
                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Pegawai</a>
                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Siswa</a>
                 <div class="list-group-item list-group-item-light p-3"><strong>PPDB</strong></div>
-                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Data PPDB</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="{{route('admin.ppdb')}}">Data PPDB</a>
                 </div>
             </div>

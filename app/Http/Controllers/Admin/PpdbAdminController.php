@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Models\ppdb;
 
 class PpdbAdminController extends Controller
 {
@@ -14,7 +15,8 @@ class PpdbAdminController extends Controller
      */
     public function index()
     {
-        //
+        $data = ppdb::all();
+        return view('back.ppdb',['data'=>$data]);
     }
 
     /**
@@ -24,7 +26,10 @@ class PpdbAdminController extends Controller
      */
     public function create()
     {
-        //
+        $model = new ppdb;
+        return view('back.create-ppdb', compact(
+            'model'
+        ));
     }
 
     /**
@@ -34,8 +39,46 @@ class PpdbAdminController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
-    {
-        //
+    {   //Gambar
+        $nm1 = $request->ijazah_tk;
+        $nm2 = $request->akta_kelahiran;
+        $nm3 = $request->ktp_orang_tua;
+        $nm4 = $request->kartu_keluarga;
+        $nm5 = $request->sertifikat_penghargaan;
+        $namaFile1 = time().rand(100,900).".".$nm1->getClientOriginalName();
+        $namaFile2 = time().rand(100,900).".".$nm2->getClientOriginalName();
+        $namaFile3 = time().rand(100,900).".".$nm3->getClientOriginalName();
+        $namaFile4 = time().rand(100,900).".".$nm4->getClientOriginalName();
+        $namaFile5 = time().rand(100,900).".".$nm5->getClientOriginalName();
+        
+
+        $model = new ppdb;
+        $model->nama_lengkap = $request->nama_lengkap;
+        $model->nama_panggilan = $request->nama_panggilan;
+        $model->alamat = $request->alamat;
+        $model->tempat_tanggal_lahir = $request->tempat_tanggal_lahir;
+        $model->nama_panggilan = $request->nama_panggilan;
+        $model->pesan = $request->pesan;
+        $model->sertifikat_penghargaan = $request->sertifikat_penghargaan;
+
+        //Gambar
+        $model->ijazah_tk = $namaFile1;
+        $model->akta_kelahiran = $namaFile2;
+        $model->ktp_orang_tua = $namaFile3;
+        $model->kartu_keluarga = $namaFile4;
+        $model->sertifikat_penghargaan = $namaFile5;
+
+        //Gambar
+        $nm1->move(public_path().'/img/ppdb', $namaFile1);
+        $nm2->move(public_path().'/img/ppdb', $namaFile2);
+        $nm3->move(public_path().'/img/ppdb', $namaFile3);
+        $nm4->move(public_path().'/img/ppdb', $namaFile4);
+        $nm5->move(public_path().'/img/ppdb', $namaFile5);
+        $model->save();
+
+        return redirect('admin/ppdb');
+
+
     }
 
     /**

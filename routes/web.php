@@ -33,6 +33,7 @@ Route::prefix('admin')->group(function(){
     Route::get('/sliderimg',[Admin\SliderImgController::class, 'slider'])->name('admin.sliderimg');
     Route::get('/aboutstart',[Admin\AboutStartController::class, 'index'])->name('admin.aboutstart');
     Route::get('/direktori',[Admin\DirektoriAdminController::class, 'index'])->name('admin.direktori');
+    Route::get('/ppdb',[Admin\PpdbAdminController::class, 'index'])->name('admin.ppdb');
     //Slider Image
     Route::get('/sliderimg/create',[Admin\SliderImgController::class, 'create'])->name('admin.sliderimg.create');
     Route::post('/sliderimg/store',[Admin\SliderImgController::class, 'store'])->name('admin.sliderimg.store');
@@ -50,7 +51,11 @@ Route::prefix('admin')->group(function(){
     //Direktori
     Route::get('/direktori/create',[Admin\DirektoriAdminController::class, 'create'])->name('admin.direktori.create');
     Route::post('/direktori/store',[Admin\DirektoriAdminController::class, 'store'])->name('admin.direktori.store');
-    
+
+    //PPDB
+    Route::get('/ppdb/create',[Admin\PpdbAdminController::class, 'create'])->name('admin.ppdb.create');
+    Route::post('/direktori/store',[Admin\PpdbAdminController::class, 'store'])->name('admin.ppdb.store');
+
     //Keluar Admin
     Route::get('/logout',[Admin\Auth\LoginController::class,'logout'])->name('admin.logout');
 });

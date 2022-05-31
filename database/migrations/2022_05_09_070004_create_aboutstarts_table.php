@@ -16,7 +16,7 @@ return new class extends Migration
         Schema::create('aboutstarts', function (Blueprint $table) {
             $table->id();
             $table->string('judul',100);
-            $table->string('isi',100);
+            $table->longText('isi');
             $table->string('gambar1',100);
             $table->string('gambar2',100);
             $table->string('gambar3',100);
